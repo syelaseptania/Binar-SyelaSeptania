@@ -55,9 +55,9 @@ public class BankAccount {
         if (total > 0) {
             if (total <= balance) {
                 balance -= total;
-                System.out.println("Penarikan berhasil. Saldo baru: " + balance);
+                System.out.println("Penarikan anda berhasil. Saldo baru: " + balance);
             } else {
-                System.out.println("Saldo tidak mencukupi. Penarikan gagal.");
+                System.out.println("Maaf Saldo tidak mencukupi. Penarikan gagal.");
             }
         } else {
             System.out.println("Jumlah penarikan harus lebih dari 0.");
